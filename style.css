@@ -54,40 +54,40 @@
 
 /* ===== LIGHT MODE (Default) ===== */
 :root, [data-theme="light"] {
-  --color-bg: #ffffff;
-  --color-surface: #f8f9fa;
-  --color-surface-2: #f1f3f5;
-  --color-border: #e0e0e0;
-  --color-text: #1a1a2e;
-  --color-text-muted: #6b7280;
-  --color-text-faint: #9ca3af;
-  --color-text-inverse: #ffffff;
-  --color-primary: #0f766e;
-  --color-primary-hover: #0d5e58;
-  --color-primary-light: #ccfbf1;
-  --color-accent: #2563eb;
-  --color-accent-hover: #1d4ed8;
-  --color-dark: #0f172a;
-  --color-dark-surface: #1e293b;
+  --color-bg: #f5f2f0;
+  --color-surface: #ece2e0;
+  --color-surface-2: #e4d9d7;
+  --color-border: #bdbfce;
+  --color-text: #42404e;
+  --color-text-muted: #5c5f72;
+  --color-text-faint: #8b9cba;
+  --color-text-inverse: #f5f2f0;
+  --color-primary: #5c5f72;
+  --color-primary-hover: #42404e;
+  --color-primary-light: #e4dce0;
+  --color-accent: #8b9cba;
+  --color-accent-hover: #7688a6;
+  --color-dark: #42404e;
+  --color-dark-surface: #4e4c5a;
 }
 
 /* ===== DARK MODE ===== */
 [data-theme="dark"] {
-  --color-bg: #0f172a;
-  --color-surface: #1e293b;
-  --color-surface-2: #334155;
-  --color-border: #475569;
-  --color-text: #e2e8f0;
-  --color-text-muted: #94a3b8;
-  --color-text-faint: #64748b;
-  --color-text-inverse: #0f172a;
-  --color-primary: #2dd4bf;
-  --color-primary-hover: #14b8a6;
-  --color-primary-light: #134e4a;
-  --color-accent: #60a5fa;
-  --color-accent-hover: #3b82f6;
-  --color-dark: #020617;
-  --color-dark-surface: #0f172a;
+  --color-bg: #2e2c38;
+  --color-surface: #3a3846;
+  --color-surface-2: #42404e;
+  --color-border: #5c5f72;
+  --color-text: #ece2e0;
+  --color-text-muted: #bdbfce;
+  --color-text-faint: #8b9cba;
+  --color-text-inverse: #2e2c38;
+  --color-primary: #bdbfce;
+  --color-primary-hover: #ece2e0;
+  --color-primary-light: #4a4858;
+  --color-accent: #8b9cba;
+  --color-accent-hover: #a0b0cc;
+  --color-dark: #232130;
+  --color-dark-surface: #2e2c38;
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
   --shadow-lg: 0 12px 32px rgba(0,0,0,0.5);
@@ -95,21 +95,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
-    --color-bg: #0f172a;
-    --color-surface: #1e293b;
-    --color-surface-2: #334155;
-    --color-border: #475569;
-    --color-text: #e2e8f0;
-    --color-text-muted: #94a3b8;
-    --color-text-faint: #64748b;
-    --color-text-inverse: #0f172a;
-    --color-primary: #2dd4bf;
-    --color-primary-hover: #14b8a6;
-    --color-primary-light: #134e4a;
-    --color-accent: #60a5fa;
-    --color-accent-hover: #3b82f6;
-    --color-dark: #020617;
-    --color-dark-surface: #0f172a;
+    --color-bg: #2e2c38;
+    --color-surface: #3a3846;
+    --color-surface-2: #42404e;
+    --color-border: #5c5f72;
+    --color-text: #ece2e0;
+    --color-text-muted: #bdbfce;
+    --color-text-faint: #8b9cba;
+    --color-text-inverse: #2e2c38;
+    --color-primary: #bdbfce;
+    --color-primary-hover: #ece2e0;
+    --color-primary-light: #4a4858;
+    --color-accent: #8b9cba;
+    --color-accent-hover: #a0b0cc;
+    --color-dark: #232130;
+    --color-dark-surface: #2e2c38;
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
     --shadow-lg: 0 12px 32px rgba(0,0,0,0.5);

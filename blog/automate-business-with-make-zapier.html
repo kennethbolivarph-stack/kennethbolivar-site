@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5 Workflows You Should Automate with Make.com and Zapier — Kenneth Bolivar</title>
+<meta name="description" content="Stop doing repetitive tasks manually. Here are five high-impact workflows you can automate today with Make.com and Zapier to save hours every week.">
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../base.css">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__logo">
+      <svg class="nav__logo-icon" viewBox="0 0 36 36" fill="none" aria-label="Kenneth Bolivar logo">
+        <rect width="36" height="36" rx="8" fill="currentColor" opacity="0.08"/>
+        <path d="M10 10v16M10 18l8-8M10 18l8 8" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 10h4a4 4 0 010 8h-4V10z" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M22 18h4.5a4 4 0 010 8H22V18z" stroke="var(--color-primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="nav__logo-text">Kenneth Bolivar</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="../index.html" class="nav__link">Home</a></li>
+      <li><a href="../about.html" class="nav__link">About</a></li>
+      <li><a href="../services.html" class="nav__link">Services</a></li>
+      <li><a href="../blog.html" class="nav__link nav__link--active">Blog</a></li>
+      <li><a href="../contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="../contact.html" class="nav__cta">Let's work!</a>
+    </div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="../index.html" onclick="closeMobile()">Home</a>
+  <a href="../about.html" onclick="closeMobile()">About</a>
+  <a href="../services.html" onclick="closeMobile()">Services</a>
+  <a href="../blog.html" onclick="closeMobile()">Blog</a>
+  <a href="../contact.html" onclick="closeMobile()">Contact</a>
+  <a href="../contact.html" class="nav__cta" style="margin-top:1rem" onclick="closeMobile()">Let's work!</a>
+</div>
+
+<article class="article">
+  <div class="article__container">
+    <a href="../blog.html" class="article__back">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Back to Blog
+    </a>
+
+    <div class="article__category">Automation</div>
+    <h1 class="article__title">5 Workflows You Should Automate with Make.com and Zapier</h1>
+    <div class="article__meta">
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        March 1, 2026
+      </span>
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        7 min read
+      </span>
+    </div>
+
+    <div class="article__content">
+      <p>If you're still manually copying data between apps, sending follow-up emails one at a time, or updating spreadsheets by hand, you're leaving hours on the table every single week. Automation platforms like <strong>Make.com</strong> and <strong>Zapier</strong> let you connect your tools and put repetitive tasks on autopilot — no coding required.</p>
+
+      <p>Here are five workflows that deliver the biggest time savings for most businesses, along with practical guidance on how to set each one up.</p>
+
+      <h2>1. Lead capture to CRM pipeline</h2>
+
+      <p>When a new lead fills out a form on your website, what happens next? If the answer involves manually adding them to a spreadsheet or CRM, you're creating a bottleneck that slows down your response time and increases the chance of leads slipping through the cracks.</p>
+
+      <h3>The automated workflow</h3>
+      <ul>
+        <li><strong>Trigger:</strong> New form submission (Typeform, Google Forms, or your website contact form)</li>
+        <li><strong>Action 1:</strong> Create a new contact in your CRM (HubSpot, Pipedrive, Airtable)</li>
+        <li><strong>Action 2:</strong> Send an instant acknowledgment email to the lead</li>
+        <li><strong>Action 3:</strong> Notify your sales team in Slack with lead details</li>
+      </ul>
+
+      <p>This workflow ensures every lead gets a response within seconds and lands in your pipeline automatically. With Make.com, you can add conditional logic — for example, routing enterprise leads to a senior team member while smaller inquiries go to a general queue.</p>
+
+      <h2>2. Social media content scheduling</h2>
+
+      <p>Managing social media across multiple platforms is tedious. Writing a post, then manually cross-posting it to LinkedIn, Twitter, Facebook, and Instagram eats up time that could go toward strategy and creation.</p>
+
+      <h3>The automated workflow</h3>
+      <ul>
+        <li><strong>Trigger:</strong> New row added to a Google Sheet or Airtable content calendar</li>
+        <li><strong>Action 1:</strong> Format the post text for each platform (character limits, hashtags, mentions)</li>
+        <li><strong>Action 2:</strong> Schedule or publish to each connected social account</li>
+        <li><strong>Action 3:</strong> Log the published links back to your content calendar</li>
+      </ul>
+
+      <p>The beauty of this approach is that your content calendar becomes your single source of truth. Add a row, and the automation handles the rest. Zapier works well for simple one-to-one posting, while Make.com excels when you need to transform content differently for each platform.</p>
+
+      <h2>3. Client onboarding sequence</h2>
+
+      <p>Every new client should get a consistent, professional onboarding experience. But when you're handling it manually, steps get missed — the welcome email goes out late, the project folder doesn't get created, the kickoff call doesn't get scheduled.</p>
+
+      <h3>The automated workflow</h3>
+      <ul>
+        <li><strong>Trigger:</strong> New deal marked as "Won" in your CRM, or a new payment received in Stripe</li>
+        <li><strong>Action 1:</strong> Send a personalized welcome email with onboarding documents</li>
+        <li><strong>Action 2:</strong> Create a project folder in Google Drive with template subfolders</li>
+        <li><strong>Action 3:</strong> Create a project board in your task management tool (Asana, Trello, Notion)</li>
+        <li><strong>Action 4:</strong> Schedule a kickoff call using Calendly and send the booking link</li>
+        <li><strong>Action 5:</strong> Add the client to your reporting dashboard</li>
+      </ul>
+
+      <p>This is where Make.com's visual scenario builder really shines. You can map out the entire onboarding journey as a flowchart, with branches for different service tiers, error handling for failed steps, and delays between actions for a more natural sequence.</p>
+
+      <h2>4. Weekly reporting and analytics digest</h2>
+
+      <p>Pulling together weekly reports is one of the most time-consuming recurring tasks. You check Google Analytics, review ad spend, pull CRM numbers, and compile everything into a document or email. Most of this can be automated.</p>
+
+      <h3>The automated workflow</h3>
+      <ul>
+        <li><strong>Trigger:</strong> Scheduled (every Monday at 8 AM)</li>
+        <li><strong>Action 1:</strong> Pull key metrics from Google Analytics (traffic, conversions, top pages)</li>
+        <li><strong>Action 2:</strong> Pull CRM data (new leads, deals closed, pipeline value)</li>
+        <li><strong>Action 3:</strong> Pull ad platform data (spend, ROAS, impressions)</li>
+        <li><strong>Action 4:</strong> Compile everything into a formatted email or Slack message</li>
+        <li><strong>Action 5:</strong> Archive the data in a Google Sheet for trend tracking</li>
+      </ul>
+
+      <p>Even if you can't fully automate the analysis, automating the data collection and formatting saves hours. You start Monday morning with a complete report instead of spending two hours building one.</p>
+
+      <h2>5. Invoice and payment follow-up</h2>
+
+      <p>Chasing unpaid invoices is uncomfortable and time-consuming. Automation can handle the follow-up sequence while keeping it professional and timely.</p>
+
+      <h3>The automated workflow</h3>
+      <ul>
+        <li><strong>Trigger:</strong> Invoice status changes to "Overdue" in your accounting tool (QuickBooks, FreshBooks, Xero)</li>
+        <li><strong>Action 1:</strong> Send a polite reminder email on day 1 of being overdue</li>
+        <li><strong>Action 2:</strong> If still unpaid after 7 days, send a second reminder with the invoice attached</li>
+        <li><strong>Action 3:</strong> If still unpaid after 14 days, notify you in Slack so you can follow up personally</li>
+        <li><strong>Action 4:</strong> Log all communication in your CRM for the client record</li>
+      </ul>
+
+      <p>This workflow turns an awkward, manual process into a systematic one. Most overdue invoices get paid after the first automated reminder, saving you from having the conversation at all.</p>
+
+      <h2>Which platform should you use?</h2>
+
+      <p>Both Make.com and Zapier are excellent, but they serve slightly different needs:</p>
+
+      <ul>
+        <li><strong>Zapier</strong> is best for simple, linear automations. If your workflow is "when X happens, do Y and Z," Zapier's interface makes it quick to set up and reliable to run. It has a massive app library and is easier for beginners.</li>
+        <li><strong>Make.com</strong> is best for complex, multi-step workflows with branching logic, loops, and data transformation. Its visual builder lets you see the entire flow, making it easier to debug and optimize. It's also more cost-effective for high-volume scenarios.</li>
+      </ul>
+
+      <p>For most businesses, using both makes sense — Zapier for the quick wins and Make.com for the more sophisticated processes.</p>
+
+      <h2>Getting started</h2>
+
+      <p>Don't try to automate everything at once. Start with the workflow that saves you the most time or causes the most friction. Build it, test it, refine it, and then move on to the next one. Most of these can be set up in under an hour and will pay for themselves within the first week.</p>
+
+      <blockquote>The best automation is the one that runs so reliably you forget it exists — until you realize you have three extra hours in your week.</blockquote>
+    </div>
+
+    <div class="article__cta">
+      <h3>Need help building your automation workflows?</h3>
+      <p>I'll design and implement custom Make.com and Zapier workflows tailored to your business operations.</p>
+      <a href="../contact.html" class="article__cta-btn">Automate your business <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Kenneth Bolivar</div>
+        <div class="footer__brand-tagline">Digital Services &amp; SEO Specialist</div>
+      </div>
+      <div>
+        <div class="footer__heading">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="../about.html">About Me</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Get In Touch</div>
+        <ul class="footer__links">
+          <li><a href="mailto:kennethbolivar.ph@gmail.com">kennethbolivar.ph@gmail.com</a></li>
+          <li><a href="../contact.html">Send a message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Kenneth Bolivar. All rights reserved.</span>
+      <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../app.js"></script>
+</body>
+</html>

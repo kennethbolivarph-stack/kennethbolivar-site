@@ -2353,3 +2353,217 @@ a:hover {
   padding-top: 56px !important;
   border-top: 1px solid rgba(255,255,255,0.06);
 }
+
+/* ==========================================================
+   LIGHT MODE OVERRIDE — Blog Page + Post Page
+   ========================================================== */
+
+/* --- Blog index page --- */
+.blog-page {
+  background: var(--color-bg) !important;
+  color: var(--color-text) !important;
+}
+
+.blog-page .section-kicker {
+  color: var(--color-primary) !important;
+}
+
+.blog-hero {
+  border-bottom-color: var(--color-border) !important;
+}
+
+.blog-hero h1 { color: var(--color-text) !important; }
+
+.blog-hero-text {
+  color: var(--color-text-muted) !important;
+}
+
+.featured-post-card {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06) !important;
+}
+.featured-post-card:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1) !important;
+  transform: translateY(-4px);
+}
+
+.post-tag {
+  background: var(--color-primary-light) !important;
+  color: var(--color-primary) !important;
+}
+
+.post-category {
+  color: var(--color-primary) !important;
+}
+
+.featured-post-card h2,
+.blog-card h3 {
+  color: var(--color-text) !important;
+}
+
+.post-excerpt {
+  color: var(--color-text-muted) !important;
+}
+
+.post-meta {
+  color: var(--color-text-faint) !important;
+}
+
+.post-link {
+  color: var(--color-primary) !important;
+}
+
+.blog-card-link {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.blog-card-link:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
+  transform: translateY(-4px);
+}
+
+.blog-cta-box {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.blog-cta-box h2 { color: var(--color-text) !important; }
+.blog-cta-box p { color: var(--color-text-muted) !important; }
+
+.blog-page .primary-btn {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+}
+.blog-page .primary-btn:hover { opacity: 0.9; }
+
+/* --- Post / article page --- */
+.post-page {
+  background: var(--color-bg) !important;
+  color: var(--color-text) !important;
+}
+
+.post-hero {
+  border-bottom-color: var(--color-border) !important;
+}
+
+.back-link {
+  color: var(--color-text-muted) !important;
+}
+.back-link:hover {
+  color: var(--color-text) !important;
+}
+
+.post-title { color: var(--color-text) !important; }
+.post-hero .post-category { color: var(--color-primary) !important; }
+.post-hero .post-meta { color: var(--color-text-faint) !important; }
+
+.post-intro {
+  color: var(--color-text-muted) !important;
+}
+
+/* TOC sidebar */
+.toc-card {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.toc-title { color: var(--color-text) !important; }
+.toc-nav a { color: var(--color-text-muted) !important; }
+.toc-nav a:hover { color: var(--color-primary) !important; }
+
+/* Article body */
+.post-page .post-article > p,
+.post-page .post-article li {
+  color: var(--color-text-muted) !important;
+}
+
+.post-page .post-article h2 {
+  color: var(--color-text) !important;
+}
+
+.post-page .post-article h3 {
+  color: var(--color-text) !important;
+}
+
+/* Blockquote */
+.post-page .featured-quote {
+  border-left-color: var(--color-primary) !important;
+  background: var(--color-primary-light) !important;
+}
+.post-page .featured-quote p {
+  color: var(--color-text) !important;
+}
+.post-page .featured-quote cite {
+  color: var(--color-text-faint) !important;
+}
+
+/* Callout cards */
+.post-page .callout-card {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.post-page .callout-card h3 { color: var(--color-text) !important; }
+.post-page .callout-card p { color: var(--color-text-muted) !important; }
+
+/* FAQ items */
+.post-page .faq-item {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.post-page .faq-item h3 { color: var(--color-text) !important; }
+.post-page .faq-item p { color: var(--color-text-muted) !important; }
+
+/* CTA */
+.post-page .post-cta {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.post-page .post-cta .section-kicker { color: var(--color-primary) !important; }
+.post-page .post-cta h2 { color: var(--color-text) !important; }
+.post-page .post-cta p { color: var(--color-text-muted) !important; }
+.post-page .primary-btn {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+}
+
+/* Author box */
+.post-page .author-box {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.post-page .author-avatar {
+  background: var(--color-primary-light) !important;
+  color: var(--color-primary) !important;
+}
+.post-page .author-copy h3 { color: var(--color-text) !important; }
+.post-page .author-role { color: var(--color-primary) !important; }
+.post-page .author-copy p:last-child { color: var(--color-text-muted) !important; }
+
+/* Related posts */
+.post-page .related-posts {
+  border-top-color: var(--color-border) !important;
+}
+.post-page .section-heading h2 { color: var(--color-text) !important; }
+.post-page .blog-card-link {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}
+.post-page .blog-card-link:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08) !important;
+}
+.post-page .blog-card h3 { color: var(--color-text) !important; }
+.post-page .blog-card .post-excerpt { color: var(--color-text-muted) !important; }
+
+/* Remove dark-mode-specific selectors that may conflict */
+[data-theme="dark"] .article__author-box,
+[data-theme="dark"] .article__related,
+[data-theme="dark"] .related-post-card,
+[data-theme="dark"] .article__toc,
+[data-theme="dark"] .featured-post-card,
+[data-theme="dark"] .blog-card-link,
+[data-theme="dark"] .blog-cta-box {
+  background: var(--color-surface) !important;
+  border-color: var(--color-border) !important;
+}

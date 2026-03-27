@@ -2146,3 +2146,62 @@ a:hover {
   margin-top: 16px;
   margin-bottom: 0;
 }
+
+/* ===== DEFINITIVE POST ARTICLE SPACING — OVERRIDES ALL ===== */
+.post-page .post-article > p {
+  margin: 0 0 24px !important;
+}
+
+.post-page .post-article > h2 {
+  margin: 56px 0 22px !important;
+}
+
+.post-page .post-article > h2:first-of-type {
+  margin-top: 0 !important;
+}
+
+.post-page .post-article > h3 {
+  margin: 32px 0 12px !important;
+}
+
+.post-page .post-article > blockquote + p {
+  margin-top: 32px !important;
+}
+
+.post-page .post-article > ol,
+.post-page .post-article > ul {
+  margin: 8px 0 32px !important;
+}
+
+.post-page .post-article .post-steps li + li {
+  margin-top: 18px !important;
+}
+
+.post-page .post-article .callout-grid {
+  margin: 28px 0 8px !important;
+}
+
+.post-page .post-article .faq-list {
+  margin: 24px 0 8px !important;
+}
+
+.post-page .post-article .faq-item h3 {
+  margin: 0 0 12px !important;
+}
+
+.post-page .post-article .post-cta {
+  margin-top: 64px !important;
+}
+
+.post-page .post-article .post-cta h2 {
+  margin: 0 0 16px !important;
+  font-size: clamp(1.5rem, 3vw, 2rem) !important;
+}
+
+.post-page .post-article .post-cta > p:not(.section-kicker) {
+  margin: 0 0 24px !important;
+}
+
+.post-page .post-article .author-box {
+  margin-top: 40px !important;
+}

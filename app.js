@@ -96,7 +96,7 @@ function animateCounters() {
 
     counter.dataset.animated = 'true';
     const target = parseInt(counter.dataset.count, 10);
-    const suffix = counter.dataset.suffix || '+';
+    const suffix = counter.dataset.suffix !== undefined ? counter.dataset.suffix : '+';
     const duration = 800;
     const startTime = performance.now();
 

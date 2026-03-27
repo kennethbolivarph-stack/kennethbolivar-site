@@ -44,6 +44,46 @@
   "mainEntityOfPage": "https://kennethbolivar.cv/blog/technical-seo-audit-checklist.html"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I run a technical SEO audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At minimum, run a full audit every quarter. If you're making significant site changes, audit before and after the change."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do a technical SEO audit without paid tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Google Search Console, PageSpeed Insights, and Chrome DevTools cover the most critical checks. Paid tools add depth but aren't required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the most common technical SEO issue?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crawlability and indexing problems. If Google can't find or access your pages, nothing else matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to see results from technical SEO fixes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minor fixes can show impact within 1–4 weeks. Larger structural changes may take 1–3 months to fully reflect in rankings."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -100,12 +140,27 @@
       </span>
     </div>
 
+
+      <nav class="article__toc">
+        <div class="article__toc-title">In this article</div>
+        <ol>
+          <li><a href="#crawlability">Crawlability and Indexing</a></li>
+          <li><a href="#site-architecture">Site Architecture and Internal Linking</a></li>
+          <li><a href="#core-web-vitals">Core Web Vitals and Performance</a></li>
+          <li><a href="#structured-data">Structured Data and Schema Markup</a></li>
+          <li><a href="#mobile-usability">Mobile Usability</a></li>
+          <li><a href="#security">Security and HTTPS</a></li>
+          <li><a href="#putting-together">Putting It All Together</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ol>
+      </nav>
+
     <div class="article__content">
       <p>A technical SEO audit is the foundation of any successful search strategy. It reveals the hidden issues that prevent search engines from properly crawling, indexing, and ranking your pages. Without addressing these fundamentals, even the best content won't reach its potential.</p>
 
       <p>This checklist covers everything I review when performing a technical audit for clients. Use it as your roadmap to diagnose and fix the issues that matter most.</p>
 
-      <h2>Crawlability and Indexing</h2>
+      <h2 id="crawlability">Crawlability and Indexing</h2>
 
       <p>Before Google can rank your pages, it needs to find and understand them. These checks ensure your site is properly accessible to search engine crawlers.</p>
 
@@ -117,7 +172,7 @@
         <li><strong>Canonical tags</strong> — Verify that every page has a self-referencing canonical, and that duplicate content points to the preferred version.</li>
       </ul>
 
-      <h2>Site Architecture and Internal Linking</h2>
+      <h2 id="site-architecture">Site Architecture and Internal Linking</h2>
 
       <p>How your pages connect to each other determines how authority flows through your site and how easily users (and crawlers) can find content.</p>
 
@@ -128,7 +183,7 @@
         <li><strong>URL structure</strong> — URLs should be clean, descriptive, and follow a logical hierarchy. Avoid excessive parameters and session IDs.</li>
       </ul>
 
-      <h2>Core Web Vitals and Performance</h2>
+      <h2 id="core-web-vitals">Core Web Vitals and Performance</h2>
 
       <p>Page speed directly impacts both rankings and user experience. Google uses Core Web Vitals as a ranking signal, so these metrics matter.</p>
 
@@ -139,7 +194,7 @@
         <li><strong>Time to First Byte (TTFB)</strong> — Should be under 800ms. Address server response time, caching configuration, and CDN usage.</li>
       </ul>
 
-      <h2>Structured Data and Schema Markup</h2>
+      <h2 id="structured-data">Structured Data and Schema Markup</h2>
 
       <p>Structured data helps search engines understand the meaning behind your content, enabling rich results like FAQ snippets, review stars, and knowledge panels.</p>
 
@@ -149,7 +204,7 @@
         <li><strong>Entity clarity</strong> — Ensure your Organization schema includes name, URL, logo, sameAs links (social profiles), and a clear description.</li>
       </ul>
 
-      <h2>Mobile Usability</h2>
+      <h2 id="mobile-usability">Mobile Usability</h2>
 
       <p>Google uses mobile-first indexing, meaning the mobile version of your site is the primary version for ranking purposes.</p>
 
@@ -160,7 +215,7 @@
         <li><strong>Font sizes</strong> — Body text should be at least 16px on mobile for comfortable reading.</li>
       </ul>
 
-      <h2>Security and HTTPS</h2>
+      <h2 id="security">Security and HTTPS</h2>
 
       <ul>
         <li><strong>SSL certificate</strong> — All pages must be served over HTTPS with a valid, non-expired certificate.</li>
@@ -168,19 +223,65 @@
         <li><strong>HTTP to HTTPS redirects</strong> — Ensure all HTTP URLs redirect to their HTTPS counterparts with 301 status codes.</li>
       </ul>
 
-      <h2>Putting It All Together</h2>
+      <h2 id="putting-together">Putting It All Together</h2>
 
       <p>A technical SEO audit isn't a one-time task. I recommend running a full audit quarterly and monitoring key metrics continuously through Google Search Console and your analytics platform.</p>
 
       <p>The sites that consistently rank well are the ones that treat technical SEO as an ongoing discipline, not a project with a finish line. Start with the highest-impact items — crawlability, Core Web Vitals, and structured data — and build from there.</p>
 
       <blockquote>The best SEO strategy in the world won't work if search engines can't properly crawl and understand your site. Technical SEO is the foundation everything else is built on.</blockquote>
+
+      <h2 id="faq">Frequently Asked Questions</h2>
+
+      <p><strong>How often should I run a technical SEO audit?</strong><br>
+      At minimum, run a full audit every quarter. If you're making significant site changes (redesign, migration, new CMS), audit before and after the change.</p>
+
+      <p><strong>Can I do a technical SEO audit without paid tools?</strong><br>
+      Yes. Google Search Console, PageSpeed Insights, and Chrome DevTools cover the most critical checks. Paid tools like Screaming Frog and Ahrefs add depth but aren't required to start.</p>
+
+      <p><strong>What's the most common technical SEO issue?</strong><br>
+      Crawlability and indexing problems. If Google can't find or access your pages, nothing else matters — content quality, backlinks, and page speed are irrelevant until indexation is resolved.</p>
+
+      <p><strong>How long does it take to see results from technical SEO fixes?</strong><br>
+      Minor fixes (meta tags, structured data) can show impact within 1–4 weeks after Google recrawls. Larger structural changes may take 1–3 months to fully reflect in rankings.</p>
+
     </div>
 
     <div class="article__cta">
       <h3>Need a professional technical SEO audit?</h3>
       <p>I'll analyze your site and deliver a prioritized action plan with clear next steps.</p>
       <a href="../contact.html" class="article__cta-btn">Get your audit <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="article__author-box">
+      <div class="article__author-avatar">KB</div>
+      <div class="article__author-info">
+        <div class="article__author-name">Kenneth Bolivar</div>
+        <div class="article__author-role">AI &amp; No-Code Automation Specialist</div>
+        <p class="article__author-bio">Self-taught automation builder based in the Philippines. I build AI-powered workflow systems using Make.com, Airtable, Claude, and OpenAI APIs. I learn by shipping.</p>
+      </div>
+    </div>
+
+
+    <div class="article__related">
+      <h2 class="article__related-heading">Related Articles</h2>
+      <div class="article__related-grid">
+      <a href="hop-on-the-ai-train.html" class="related-post-card">
+        <span class="related-post-card__category">AI Career</span>
+        <h3 class="related-post-card__title">You Don't Have to Be a Tech Person to Hop on the AI Train</h3>
+        <p class="related-post-card__excerpt">How anyone — regardless of background — can transition into the AI economy in 2026.</p>
+      </a>
+      <a href="what-is-aeo-answer-engine-optimization.html" class="related-post-card">
+        <span class="related-post-card__category">AI Visibility</span>
+        <h3 class="related-post-card__title">What Is AEO? A Beginner's Guide to Answer Engine Optimization</h3>
+        <p class="related-post-card__excerpt">Learn what AEO is, why it matters, and how to get cited by AI search engines.</p>
+      </a>
+      <a href="automate-business-with-make-zapier.html" class="related-post-card">
+        <span class="related-post-card__category">Automation</span>
+        <h3 class="related-post-card__title">5 Workflows You Should Automate with Make.com and Zapier</h3>
+        <p class="related-post-card__excerpt">Five high-impact workflows you can automate today to save hours every week.</p>
+      </a>
+      </div>
     </div>
   </div>
 </article>

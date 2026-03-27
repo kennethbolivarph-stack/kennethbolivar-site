@@ -93,11 +93,11 @@ class Typewriter {
 }
 
 // Hero typewriter
-const heroWords = ['SEO?', 'automation?', 'content?', 'research?', 'CRM?', 'social media?'];
+const heroWords = ['Automation?', 'AI Workflows?', 'Data Systems?', 'Operations?', 'Integrations?'];
 new Typewriter(document.getElementById('typedWord'), heroWords);
 
 // CTA typewriter
-const ctaWords = ['Let\'s talk.', 'I can help.', 'Reach out.'];
+const ctaWords = ['workflows', 'operations', 'systems', 'efficiency', 'output'];
 new Typewriter(document.getElementById('ctaTypedWord'), ctaWords, { typeSpeed: 80, deleteSpeed: 50 });
 
 

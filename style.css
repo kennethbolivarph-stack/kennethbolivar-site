@@ -2051,3 +2051,98 @@ a:hover {
     flex-direction: column;
   }
 }
+
+/* ===== POST ARTICLE SPACING FIXES ===== */
+
+/* Paragraph spacing — breathing room between blocks */
+.post-article > p + p {
+  margin-top: 24px;
+}
+
+/* First paragraph after heading */
+.post-article h2 + p {
+  margin-top: 20px;
+}
+
+/* Space below paragraphs before next heading */
+.post-article > p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* General paragraph flow */
+.post-article > p:not(:first-child) {
+  margin-top: 22px;
+}
+
+/* Heading spacing — more air above, tighter below */
+.post-article h2:first-of-type {
+  margin-top: 0;
+}
+
+/* Callout grid gap from heading */
+.post-article h2 + .callout-grid {
+  margin-top: 28px;
+}
+
+/* Callout card inner spacing */
+.callout-card h3 {
+  margin-bottom: 8px;
+}
+
+/* Ordered list (post-steps) breathing */
+.post-steps li {
+  padding-left: 4px;
+  line-height: 1.8;
+}
+
+.post-steps li + li {
+  margin-top: 16px;
+}
+
+/* FAQ item internal spacing */
+.faq-item h3 {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #f5f7fb;
+}
+
+/* FAQ list gap from heading */
+.post-article h2 + .faq-list {
+  margin-top: 24px;
+}
+
+/* Post CTA internal spacing */
+.post-cta .section-kicker {
+  margin-bottom: 12px;
+}
+.post-cta h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+.post-cta > p:not(.section-kicker) {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* Author box inner spacing */
+.author-copy > p {
+  margin-top: 0;
+}
+
+/* Featured quote — add space after it */
+.featured-quote + p {
+  margin-top: 28px;
+}
+
+/* Related posts section top padding */
+.related-posts {
+  padding-top: 48px;
+}
+
+/* Post meta spacing from title */
+.post-hero .post-meta {
+  margin-top: 16px;
+  margin-bottom: 0;
+}

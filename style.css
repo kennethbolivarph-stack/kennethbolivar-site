@@ -2205,3 +2205,151 @@ a:hover {
 .post-page .post-article .author-box {
   margin-top: 40px !important;
 }
+
+/* ===== MEDIUM-INSPIRED READING EXPERIENCE ===== */
+
+/* Narrow the article column for comfortable reading */
+.post-page .post-article {
+  max-width: 680px;
+}
+
+/* Body text — larger, more generous line height */
+.post-page .post-article > p,
+.post-page .post-article li {
+  font-size: 1.175rem !important;
+  line-height: 2 !important;
+  color: rgba(245,247,251,0.86) !important;
+  letter-spacing: 0.005em;
+}
+
+/* Each paragraph is a breathing block */
+.post-page .post-article > p {
+  margin: 0 0 32px !important;
+}
+
+/* Short standalone paragraphs (like "You've felt it, haven't you?") get extra drama */
+.post-page .post-article > blockquote + p {
+  margin-top: 40px !important;
+}
+
+/* Section headings — big breathing room above */
+.post-page .post-article > h2 {
+  margin: 72px 0 24px !important;
+  font-size: clamp(1.7rem, 3.2vw, 2.4rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -0.025em;
+  color: #f5f7fb;
+}
+
+.post-page .post-article > h2:first-of-type {
+  margin-top: 8px !important;
+}
+
+/* H3 inside callouts/FAQ — tighter */
+.post-page .post-article h3 {
+  font-size: 1.125rem !important;
+  line-height: 1.4 !important;
+  margin: 0 0 12px !important;
+}
+
+/* Featured quote — more presence */
+.post-page .featured-quote {
+  margin: 0 0 40px !important;
+  padding: 32px 32px 28px !important;
+}
+
+.post-page .featured-quote p {
+  font-size: 1.25rem !important;
+  line-height: 1.85 !important;
+}
+
+.post-page .featured-quote cite {
+  font-size: 0.95rem;
+}
+
+/* Callout cards — more inner breathing room */
+.post-page .callout-card {
+  padding: 26px !important;
+}
+
+.post-page .callout-card p {
+  font-size: 1.05rem !important;
+  line-height: 1.8 !important;
+}
+
+/* Callout grid distance from heading */
+.post-page .callout-grid {
+  margin: 32px 0 16px !important;
+}
+
+/* Ordered list steps */
+.post-page .post-steps {
+  margin: 12px 0 36px !important;
+  padding-left: 24px !important;
+}
+
+.post-page .post-steps li {
+  font-size: 1.175rem !important;
+  padding-left: 6px;
+}
+
+.post-page .post-steps li + li {
+  margin-top: 20px !important;
+}
+
+/* FAQ items — more padding, clearer separation */
+.post-page .faq-list {
+  margin: 28px 0 16px !important;
+  gap: 20px !important;
+}
+
+.post-page .faq-item {
+  padding: 26px !important;
+}
+
+.post-page .faq-item h3 {
+  font-size: 1.1rem !important;
+  margin-bottom: 14px !important;
+}
+
+.post-page .faq-item p {
+  font-size: 1.05rem !important;
+  line-height: 1.85 !important;
+}
+
+/* CTA — generous breathing */
+.post-page .post-cta {
+  margin-top: 72px !important;
+  padding: 36px !important;
+}
+
+.post-page .post-cta .section-kicker {
+  margin-bottom: 14px;
+}
+
+.post-page .post-cta h2 {
+  margin: 0 0 18px !important;
+}
+
+.post-page .post-cta > p:not(.section-kicker) {
+  font-size: 1.05rem !important;
+  line-height: 1.85 !important;
+  margin: 0 0 28px !important;
+}
+
+/* Author box — generous */
+.post-page .author-box {
+  margin-top: 48px !important;
+  padding: 32px !important;
+}
+
+.post-page .author-copy > p:last-child {
+  font-size: 1rem !important;
+  line-height: 1.85 !important;
+}
+
+/* Related posts — clear section break */
+.post-page .related-posts {
+  padding-top: 56px !important;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}

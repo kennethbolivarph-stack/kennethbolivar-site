@@ -58,9 +58,9 @@
   --color-surface: #f8f9fa;
   --color-surface-2: #f1f3f5;
   --color-border: #e0e0e0;
-  --color-text: #1a1a2e;
-  --color-text-muted: #6b7280;
-  --color-text-faint: #9ca3af;
+  --color-text: #111827;
+  --color-text-muted: #374151;
+  --color-text-faint: #6b7280;
   --color-text-inverse: #ffffff;
   --color-primary: #0f766e;
   --color-primary-hover: #0d5e58;
@@ -2566,4 +2566,71 @@ a:hover {
 [data-theme="dark"] .blog-cta-box {
   background: var(--color-surface) !important;
   border-color: var(--color-border) !important;
+}
+
+/* ===== DARKER TEXT FOR READING COMFORT ===== */
+.post-page .post-article > p,
+.post-page .post-article li {
+  color: #374151 !important;
+}
+
+.post-page .post-article h2 {
+  color: #111827 !important;
+}
+
+.post-page .post-article h3 {
+  color: #1f2937 !important;
+}
+
+.post-page .post-intro {
+  color: #4b5563 !important;
+}
+
+.post-page .featured-quote p {
+  color: #1f2937 !important;
+}
+
+.post-page .featured-quote cite {
+  color: #6b7280 !important;
+}
+
+.post-page .callout-card p {
+  color: #4b5563 !important;
+}
+
+.post-page .faq-item p {
+  color: #4b5563 !important;
+}
+
+.post-page .faq-item h3 {
+  color: #1f2937 !important;
+}
+
+.post-page .post-cta p:not(.section-kicker) {
+  color: #4b5563 !important;
+}
+
+.post-page .author-copy p:last-child {
+  color: #4b5563 !important;
+}
+
+.toc-nav a {
+  color: #6b7280 !important;
+}
+.toc-nav a:hover {
+  color: var(--color-primary) !important;
+}
+
+/* Blog index page text */
+.blog-page .post-excerpt {
+  color: #4b5563 !important;
+}
+
+.blog-page .featured-post-card h2,
+.blog-page .blog-card h3 {
+  color: #111827 !important;
+}
+
+.blog-cta-box p {
+  color: #4b5563 !important;
 }

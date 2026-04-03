@@ -18,12 +18,46 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Kenneth Bolivar</title>
-<meta name="description" content="Kenneth Bolivar — Executive Partner & AI Workflow Strategist. Building agentic systems that help founders reclaim time and scale with precision.">
+<title>The Neural Log — Kenneth Bolivar</title>
+<meta name="description" content="The Neural Log: An AI-powered podcast exploring how AI is reshaping work, decision-making, and the future of operations.">
 
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./base.css">
 <link rel="stylesheet" href="./style.css">
+<style>
+  .media-embeds {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  .embed-container {
+    background: var(--color-bg-alt, #f9fafb);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-border, #e5e7eb);
+  }
+  .embed-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
 </head>
 <body>
 
@@ -35,9 +69,9 @@
     </a>
     <ul class="nav__links">
       <li><a href="./index.html" class="nav__link">Home</a></li>
-      <li><a href="./about.html" class="nav__link nav__link--active">About</a></li>
+      <li><a href="./about.html" class="nav__link">About</a></li>
       <li><a href="./services.html" class="nav__link">Services</a></li>
-      <li><a href="./the-neural-log.html" class="nav__link">The Neural Log</a></li>
+      <li><a href="./the-neural-log.html" class="nav__link nav__link--active">The Neural Log</a></li>
       <li><a href="./blog.html" class="nav__link">Blog</a></li>
       <li><a href="./contact.html" class="nav__link">Contact</a></li>
     </ul>
@@ -66,70 +100,31 @@
 <!-- ===== PAGE HEADER ===== -->
 <section class="page-header">
   <div class="container">
-    <h1 class="page-header__heading">Executive Partner & AI Workflow Strategist</h1>
-    <p class="page-header__subtext">Building agentic systems that help founders reclaim time and scale with precision.</p>
+    <h1 class="page-header__heading">The Neural Log</h1>
+    <p class="page-header__subtext">An AI-powered podcast exploring the intersection of artificial intelligence, human decision-making, and the future of work.</p>
   </div>
 </section>
 
-<!-- ===== ABOUT DETAIL ===== -->
+<!-- ===== CONTENT ===== -->
 <section class="about-detail">
   <div class="container">
-    <div class="about-detail__grid">
-      <div class="about-detail__image">
-        <img src="./assets/profile.jpg" alt="Kenneth Bolivar portrait" loading="lazy">
+    <div class="media-embeds">
+      
+      <!-- Spotify Embed -->
+      <div class="embed-container">
+        <h2>Listen on Spotify</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/339lVwAdAKZqJ1s16rqa0K?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
-      <div class="about-detail__content">
-        <h2>I don’t just manage tasks—I build systems that run themselves.</h2>
-        <p>
-          I’m Kenneth Bolivar. My approach is rooted in numerical problem solving, logical structure, and accuracy—making me a true Chief of Staff–style partner, not just a virtual assistant.
-        </p>
-        <p>
-          With 5+ years of operations discipline, I help clients eliminate manual work through AI automation while bringing the rigor of an analyst to every engagement.
-        </p>
-        
-        <h3>What Makes My Approach Different</h3>
-        <p>
-          <strong>Analytical by nature:</strong> I interpret data, draw conclusions from numbers, and build systems around metrics—using automation to uncover inefficiencies and improve decisions.
-        </p>
-        <p>
-          <strong>Low‑maintenance, high‑output:</strong> Wired for precision and autonomy. I thrive on clear rules and deliver results without constant direction.
-        </p>
-        <p>
-          <strong>Owl (Strategist) mindset:</strong> I stay calm in complexity and turn chaos into repeatable processes.
-        </p>
 
-        <h3>Core Capabilities</h3>
-        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1rem;">
-          <li><strong>AI‑Powered Operations:</strong> Custom AI assistants (Claude, GPT), cross‑platform publishing, Airtable ↔ Notion sync, and agentic workflows that run themselves.</li>
-          <li><strong>Data‑Driven Support:</strong> Dashboards, KPI trackers, and decisions grounded in numbers—not guesswork.</li>
-          <li><strong>Operational Discipline:</strong> Structure for calendars, projects, and communications—nothing falls through the cracks.</li>
-        </ul>
-
-        <p>
-          I’m also the creator of <strong>The Neural Log</strong>, an AI‑powered podcast exploring how AI is reshaping work and decision‑making.
-        </p>
+      <!-- YouTube Embed -->
+      <div class="embed-container">
+        <h2>Watch on YouTube</h2>
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PL_XJkIYdnPKhd5cJx" title="The Neural Log YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p style="margin-top: 1rem;"><a href="https://youtube.com/@theneurallog?si=_XJkIYdnPKhd5cJx" target="_blank" rel="noopener noreferrer" class="about-intro__link">Visit Channel →</a></p>
       </div>
-    </div>
-  </div>
-</section>
 
-<!-- ===== SKILLS ===== -->
-<section class="about-skills">
-  <div class="container">
-    <h2 class="about-skills__heading fade-in">Tools &amp; Stack</h2>
-    <div class="about-skills__grid fade-in">
-      <div class="skill-tag">Make.com</div>
-      <div class="skill-tag">Airtable</div>
-      <div class="skill-tag">Claude API</div>
-      <div class="skill-tag">OpenAI API</div>
-      <div class="skill-tag">ChatGPT</div>
-      <div class="skill-tag">Notion</div>
-      <div class="skill-tag">Slack / Teams</div>
-      <div class="skill-tag">Google Sheets</div>
-      <div class="skill-tag">Webhook Routing</div>
-      <div class="skill-tag">JSON / API Integration</div>
-      <div class="skill-tag">Process Documentation</div>
-      <div class="skill-tag">Data Architecture</div>
     </div>
   </div>
 </section>
@@ -138,7 +133,7 @@
 <section class="cta">
   <div class="container">
     <h2 class="cta__heading fade-in">
-      Ready to work<br>together?
+      Stay updated with<br>the latest episodes.
     </h2>
     <a href="./contact.html" class="cta__btn">
       Get in touch <span aria-hidden="true">→</span>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Kenneth Bolivar</title>
+<meta name="description" content="I help founders and small teams reduce manual work through executive support systems, workflow automation, and custom AI assistants.">
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="./index.html" class="nav__logo">
+      <span class="nav__logo-text">Kenneth Bolivar</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="./index.html" class="nav__link">Home</a></li>
+      <li><a href="./about.html" class="nav__link nav__link--active">About</a></li>
+      <li><a href="./services.html" class="nav__link">Services</a></li>
+      <li><a href="./blog.html" class="nav__link">Blog</a></li>
+      <li><a href="./contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="./contact.html" class="nav__cta">Work with me</a>
+    </div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="./index.html" onclick="closeMobile()">Home</a>
+  <a href="./about.html" onclick="closeMobile()">About</a>
+  <a href="./services.html" onclick="closeMobile()">Services</a>
+  <a href="./blog.html" onclick="closeMobile()">Blog</a>
+  <a href="./contact.html" onclick="closeMobile()">Contact</a>
+  <a href="./contact.html" class="nav__cta" style="margin-top:1rem" onclick="closeMobile()">Work with me</a>
+</div>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+  <div class="container">
+    <h1 class="page-header__heading">About — Kenneth Bolivar</h1>
+    <p class="page-header__subtext">I help founders and lean teams stay organized, responsive, and efficient.</p>
+  </div>
+</section>
+
+<!-- ===== ABOUT DETAIL ===== -->
+<section class="about-detail">
+  <div class="container">
+    <div class="about-detail__grid">
+      <div class="about-detail__image">
+        <img src="./assets/profile.jpg" alt="Kenneth Bolivar portrait" loading="lazy">
+      </div>
+      <div class="about-detail__content">
+        <h2>Hi there! I’m Kenneth.</h2>
+        <p>
+          I help founders and small teams reduce manual work through executive support systems, workflow automation, and custom AI assistants.
+        </p>
+        <p>
+          I come from a background in structured, high-accountability work, and I bring that same discipline into every system I build — clear workflows, practical logic, and support that actually helps day-to-day operations run better.
+        </p>
+        <p>
+          After years in high-accountability operations, I now combine that real-world discipline with AI to give founders executive-level support — without the cost or complexity of a big team. I don’t just manage tasks; I build calm, reliable systems that handle the details for you.
+        </p>
+        
+        <h3>How I Help</h3>
+        <p>
+          <strong>Practical and systems-oriented:</strong> I focus on workflows that remove repetitive admin, reduce missed steps, and make daily operations easier to manage.
+        </p>
+        <p>
+          <strong>Built around your workflow:</strong> I map how your current process works, identify what can be automated, and build a system that fits your business instead of forcing a complicated setup.
+        </p>
+        <p>
+          <strong>Human + AI partnership:</strong> I bring real judgment and care, while the AI handles the repetitive parts. The result is support that feels personal, not robotic.
+        </p>
+
+        <h3>My Background</h3>
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1rem;">
+          <li>6+ years of proven reliability in fast-paced delivery operations (GrabFood Philippines)</li>
+          <li>Bachelor of Science in Information Technology</li>
+          <li>Transitioned my skills into helping founders reclaim their time through simple, effective AI systems</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="about-skills">
+  <div class="container">
+    <h2 class="about-skills__heading fade-in">Tools I use</h2>
+    <p style="margin-bottom: 2rem;">I work with Make.com, Airtable, Claude, OpenAI, and Notion — but you never need to learn any of them. I handle all the technical side.</p>
+    <div class="about-skills__grid fade-in">
+      <div class="skill-tag">Make.com</div>
+      <div class="skill-tag">Airtable</div>
+      <div class="skill-tag">Claude</div>
+      <div class="skill-tag">OpenAI</div>
+      <div class="skill-tag">Notion</div>
+      <div class="skill-tag">Teams / Telegram</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta">
+  <div class="container">
+    <h2 class="cta__heading fade-in">
+      Need better support systems for your business?
+    </h2>
+    <p style="margin-bottom: 2rem;">Let’s turn your biggest time-drain into a system that runs on autopilot.</p>
+    <a href="./contact.html" class="cta__btn">
+      Book a workflow review <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Kenneth Bolivar</div>
+        <div class="footer__brand-tagline">Executive Support &amp; AI Automation</div>
+      </div>
+      <div>
+        <div class="footer__heading">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Get In Touch</div>
+        <ul class="footer__links">
+          <li><a href="mailto:kennethbolivar.ph@gmail.com">kennethbolivar.ph@gmail.com</a></li>
+          <li><a href="./contact.html">Send a message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Kenneth Bolivar. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

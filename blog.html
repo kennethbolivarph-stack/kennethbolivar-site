@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Kenneth Bolivar</title>
+<meta name="description" content="Insights on AI automation, executive support, and systems that actually work.">
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="./index.html" class="nav__logo">
+      <span class="nav__logo-text">Kenneth Bolivar</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="./index.html" class="nav__link">Home</a></li>
+      <li><a href="./about.html" class="nav__link">About</a></li>
+      <li><a href="./services.html" class="nav__link">Services</a></li>
+      <li><a href="./blog.html" class="nav__link nav__link--active">Blog</a></li>
+      <li><a href="./contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="./contact.html" class="nav__cta">Work with me</a>
+    </div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="./index.html" onclick="closeMobile()">Home</a>
+  <a href="./about.html" onclick="closeMobile()">About</a>
+  <a href="./services.html" onclick="closeMobile()">Services</a>
+  <a href="./blog.html" onclick="closeMobile()">Blog</a>
+  <a href="./contact.html" onclick="closeMobile()">Contact</a>
+  <a href="./contact.html" class="nav__cta" style="margin-top:1rem" onclick="closeMobile()">Work with me</a>
+</div>
+
+<main class="blog-page">
+
+  <section class="blog-hero">
+    <div class="container">
+      <p class="section-kicker">Blog</p>
+      <h1>Insights on AI automation, executive support, and systems that actually work.</h1>
+      <p class="blog-hero-text">
+        Practical articles on automation, AI workflows, and no-code systems —
+        written for founders and lean teams that want execution, not fluff.
+      </p>
+    </div>
+  </section>
+
+  <section class="blog-featured">
+    <div class="container">
+      <a href="./blog/how-to-adapt-to-the-ai-era.html" class="featured-post-card">
+        <div class="featured-post-copy">
+          <span class="post-tag">Featured</span>
+          <p class="post-category">Strategy & Mindset</p>
+          <h2>How to Adapt to the AI Era: A Practical Guide for Humans</h2>
+          <p class="post-excerpt">
+            Forget the robot apocalypse. Here's how to stay relevant, resilient, and remarkably human in a world run by algorithms.
+          </p>
+          <div class="post-meta">
+            <span>April 15, 2026</span>
+            <span>8 min read</span>
+          </div>
+          <span class="post-link">Read article →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="blog-grid-section">
+    <div class="container">
+      <div class="blog-grid">
+
+        <article class="blog-card">
+          <a href="./blog/top-ai-headlines-march-2026.html" class="blog-card-link">
+            <div class="blog-card-body">
+              <p class="post-category">AI News</p>
+              <h3>Top AI Headlines of March 2026: The Month That Changed the Game</h3>
+              <p class="post-excerpt">
+                March 2026 was a turning point for AI — from the rise of autonomous agents to new US regulation frameworks. Here’s what you need to know.
+              </p>
+              <div class="post-meta">
+                <span>April 3, 2026</span>
+                <span>5 min read</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="blog-card">
+          <a href="./blog/what-is-aeo-answer-engine-optimization.html" class="blog-card-link">
+            <div class="blog-card-body">
+              <p class="post-category">AI Visibility</p>
+              <h3>What Is AEO? A Beginner’s Guide to Answer Engine Optimization</h3>
+              <p class="post-excerpt">
+                AI search is changing how people find information. Learn what AEO is, why it matters,
+                and how to get your brand cited by ChatGPT, Perplexity, and Google AI.
+              </p>
+              <div class="post-meta">
+                <span>March 8, 2026</span>
+                <span>6 min read</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="blog-card">
+          <a href="./blog/automate-business-with-make-zapier.html" class="blog-card-link">
+            <div class="blog-card-body">
+              <p class="post-category">Automation</p>
+              <h3>5 Workflows You Should Automate with Make.com and Zapier</h3>
+              <p class="post-excerpt">
+                Stop doing repetitive tasks manually. Here are five high-impact workflows
+                you can automate today to save hours every week.
+              </p>
+              <div class="post-meta">
+                <span>March 1, 2026</span>
+                <span>7 min read</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-cta">
+    <div class="container">
+      <div class="blog-cta-box">
+        <p class="section-kicker">Need help building this for real?</p>
+        <h2>Want these strategies applied to your business?</h2>
+        <p>
+          I build AI-powered workflows, executive support systems, and automation setups that reduce manual work
+          and turn messy processes into clear systems.
+        </p>
+        <a href="./contact.html" class="primary-btn">Book a workflow review →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Kenneth Bolivar</div>
+        <div class="footer__brand-tagline">Executive Support &amp; AI Automation</div>
+      </div>
+      <div>
+        <div class="footer__heading">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Get In Touch</div>
+        <ul class="footer__links">
+          <li><a href="mailto:kennethbolivar.ph@gmail.com">kennethbolivar.ph@gmail.com</a></li>
+          <li><a href="./contact.html">Send a message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Kenneth Bolivar. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

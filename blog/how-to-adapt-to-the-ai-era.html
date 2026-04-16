@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Adapt to the AI Era: A Practical Guide for Humans — Kenneth Bolivar</title>
+<meta name="description" content="Forget the robot apocalypse. Here's how to stay relevant, resilient, and remarkably human in a world run by algorithms.">
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../base.css">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .author-byline {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .author-byline img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .author-byline-info h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .author-byline-info p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+  .post-hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 2rem 0;
+    display: block;
+  }
+  .share-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .share-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: var(--color-bg-secondary);
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+  }
+  .share-btn:hover {
+    background: var(--color-primary);
+    color: #fff;
+    border-color: var(--color-primary);
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="../index.html" class="nav__logo">
+      <span class="nav__logo-text">Kenneth Bolivar</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="../index.html" class="nav__link">Home</a></li>
+      <li><a href="../about.html" class="nav__link">About</a></li>
+      <li><a href="../services.html" class="nav__link">Services</a></li>
+      <li><a href="../blog.html" class="nav__link nav__link--active">Blog</a></li>
+      <li><a href="../contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="../contact.html" class="nav__cta">Work with me</a>
+    </div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="../index.html" onclick="closeMobile()">Home</a>
+  <a href="../about.html" onclick="closeMobile()">About</a>
+  <a href="../services.html" onclick="closeMobile()">Services</a>
+  <a href="../blog.html" onclick="closeMobile()">Blog</a>
+  <a href="../contact.html" onclick="closeMobile()">Contact</a>
+  <a href="../contact.html" class="nav__cta" style="margin-top:1rem" onclick="closeMobile()">Work with me</a>
+</div>
+
+<main class="post-page">
+  <section class="post-hero">
+    <div class="container post-shell">
+      <a href="../blog.html" class="back-link">← Back to Blog</a>
+
+      <div class="post-hero-inner">
+        <p class="post-category">Strategy & Mindset</p>
+        <h1 class="post-title">How to Adapt to the AI Era: A Practical Guide for Humans</h1>
+
+        <div class="post-meta">
+          <span>April 15, 2026</span>
+          <span>8 min read</span>
+        </div>
+
+        <div class="author-byline">
+          <img src="../assets/profile.jpg" alt="Kenneth Bolivar">
+          <div class="author-byline-info">
+            <h4>Kenneth Bolivar</h4>
+            <p>AI Automation Specialist & Executive VA</p>
+          </div>
+        </div>
+
+        <img src="../assets/ai-future-work.jpg" alt="A person working alongside AI tools in a modern workspace" class="post-hero-image">
+
+        <p class="post-intro">
+          Forget the robot apocalypse. Here's how to stay relevant, resilient, and remarkably human in a world run by algorithms.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="post-layout-section">
+    <div class="container post-shell post-layout">
+      <aside class="post-sidebar">
+        <div class="toc-card">
+          <p class="toc-title">In this article</p>
+          <nav class="toc-nav">
+            <a href="#understanding-shift">Understanding the Shift</a>
+            <a href="#human-advantage">The Human Advantage</a>
+            <a href="#practical-steps">Practical Steps to Adapt</a>
+            <a href="#building-resilience">Building Resilience</a>
+          </nav>
+        </div>
+      </aside>
+
+      <article class="post-article">
+        <h2 id="understanding-shift">Understanding the Shift</h2>
+        <p>The AI era isn't just about technology; it's about a fundamental shift in how we work and live. As algorithms take over repetitive tasks, the value of human judgment and creativity increases.</p>
+
+        <h2 id="human-advantage">The Human Advantage</h2>
+        <p>While AI can process data at incredible speeds, it lacks empathy, context, and the ability to build deep relationships. These are the qualities that will define success in the coming years.</p>
+
+        <h2 id="practical-steps">Practical Steps to Adapt</h2>
+        <p>Start by identifying the tasks in your daily routine that are most susceptible to automation. Then, focus on developing skills that AI cannot easily replicate, such as complex problem-solving and emotional intelligence.</p>
+
+        <h2 id="building-resilience">Building Resilience</h2>
+        <p>Adaptability is a muscle. The more you practice learning new tools and embracing change, the more resilient you will become. Stay curious and never stop learning.</p>
+
+        <div class="share-buttons">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://kennethbolivar.cv/blog/how-to-adapt-to-the-ai-era.html" target="_blank" rel="noopener noreferrer" class="share-btn">LinkedIn</a>
+          <a href="https://twitter.com/intent/tweet?url=https://kennethbolivar.cv/blog/how-to-adapt-to-the-ai-era.html&text=How%20to%20Adapt%20to%20the%20AI%20Era%3A%20A%20Practical%20Guide%20for%20Humans" target="_blank" rel="noopener noreferrer" class="share-btn">Twitter</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://kennethbolivar.cv/blog/how-to-adapt-to-the-ai-era.html" target="_blank" rel="noopener noreferrer" class="share-btn">Facebook</a>
+          <button id="copyLinkBtn" class="share-btn">Copy Link</button>
+        </div>
+
+        <div class="post-cta">
+          <p class="section-kicker">Ready to start building with AI?</p>
+          <h2>Need a workflow or system built for your business?</h2>
+          <p>
+            I help founders and lean teams build practical systems for executive support, workflow automation, and AI-assisted operations.
+          </p>
+          <a href="../contact.html" class="primary-btn">Book a workflow review →</a>
+        </div>
+
+        <div class="author-box">
+          <div class="author-avatar">KB</div>
+          <div class="author-copy">
+            <h3>Kenneth Bolivar</h3>
+            <p class="author-role">Executive Support &amp; AI Automation</p>
+            <p>
+              I turn chaotic, repetitive work into simple systems that run themselves — so busy founders can finally focus on the things that matter most.
+            </p>
+          </div>
+        </div>
+
+        <a href="../blog.html" class="back-link" style="margin-top: 4rem; display: inline-block;">← Back to Blog</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Kenneth Bolivar</div>
+        <div class="footer__brand-tagline">Executive Support &amp; AI Automation</div>
+      </div>
+      <div>
+        <div class="footer__heading">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="../about.html">About Me</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Get In Touch</div>
+        <ul class="footer__links">
+          <li><a href="mailto:kennethbolivar.ph@gmail.com">kennethbolivar.ph@gmail.com</a></li>
+          <li><a href="../contact.html">Send a message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Kenneth Bolivar. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../app.js"></script>
+<script>
+  document.getElementById('copyLinkBtn').addEventListener('click', function() {
+    const url = 'https://kennethbolivar.cv/blog/how-to-adapt-to-the-ai-era.html';
+    navigator.clipboard.writeText(url).then(() => {
+      const btn = this;
+      const originalText = btn.innerText;
+      btn.innerText = 'Copied!';
+      setTimeout(() => {
+        btn.innerText = originalText;
+      }, 2000);
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — Kenneth Bolivar</title>
+<meta name="description" content="I build practical systems that help founders and lean teams stay organized, responsive, and efficient through executive support and AI automation.">
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="./index.html" class="nav__logo">
+      <span class="nav__logo-text">Kenneth Bolivar</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="./index.html" class="nav__link">Home</a></li>
+      <li><a href="./about.html" class="nav__link">About</a></li>
+      <li><a href="./services.html" class="nav__link nav__link--active">Services</a></li>
+      <li><a href="./blog.html" class="nav__link">Blog</a></li>
+      <li><a href="./contact.html" class="nav__link">Contact</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="./contact.html" class="nav__cta">Work with me</a>
+    </div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="./index.html" onclick="closeMobile()">Home</a>
+  <a href="./about.html" onclick="closeMobile()">About</a>
+  <a href="./services.html" onclick="closeMobile()">Services</a>
+  <a href="./blog.html" onclick="closeMobile()">Blog</a>
+  <a href="./contact.html" onclick="closeMobile()">Contact</a>
+  <a href="./contact.html" class="nav__cta" style="margin-top:1rem" onclick="closeMobile()">Work with me</a>
+</div>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+  <div class="container">
+    <h1 class="page-header__heading">Services — Kenneth Bolivar</h1>
+    <p class="page-header__subtext">Three focused ways I help businesses reduce manual work and improve operational flow.</p>
+  </div>
+</section>
+
+<!-- ===== SERVICES DETAIL ===== -->
+<section class="services-detail">
+  <div class="container">
+    <div class="services-detail__grid">
+
+      <div class="service-detail-card fade-in">
+        <div class="service-detail-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>1. Executive Support System</h3>
+        <p>Inbox triage, calendar support, executive briefing, request routing, and organized follow-through built into one practical support system.</p>
+        <ul class="service-detail-card__features">
+          <li><strong>Smart Inbox</strong> — Emails are automatically sorted, prioritized, and replied to in your tone.</li>
+          <li><strong>Calendar & Scheduling</strong> — Meetings are booked, rescheduled, and protected without endless back-and-forth.</li>
+          <li><strong>One-Page Briefings</strong> — Before any meeting you get a simple summary with context and action items.</li>
+          <li><strong>24/7 Telegram Front Desk</strong> — Clients message anytime. The system answers instantly and only escalates what needs you.</li>
+          <li><strong>Instant Knowledge Access</strong> — Ask anything about your business and get answers pulled from your history.</li>
+        </ul>
+      </div>
+
+      <div class="service-detail-card fade-in">
+        <div class="service-detail-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <h3>2. AI Workflow Automation</h3>
+        <p>Automate repetitive tasks, approvals, routing, updates, and recurring operational work using tools like Make.com, Airtable, and Notion.</p>
+        <ul class="service-detail-card__features">
+          <li>Sales follow-ups that send themselves at the right time</li>
+          <li>Order → inventory → supplier alerts that flow without you</li>
+          <li>Team notifications, approvals, and reporting in the background</li>
+          <li>Data that stays clean and synced across all your tools</li>
+          <li>Finished system plus simple instructions for future tweaks</li>
+        </ul>
+      </div>
+
+      <div class="service-detail-card fade-in">
+        <div class="service-detail-card__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+        </div>
+        <h3>3. Custom AI Assistant</h3>
+        <p>Build AI assistants that can answer questions, retrieve business context, support requests, and help your team act faster using your own knowledge base.</p>
+        <ul class="service-detail-card__features">
+          <li>Analyzes job applications, proposals, or documents</li>
+          <li>Turns rough ideas into polished content or emails</li>
+          <li>Researches topics and gives ready-to-use summaries</li>
+          <li>Insights and answers based on your own data</li>
+          <li>Trained on your business, not generic ChatGPT</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="services-process">
+  <div class="container">
+    <h2 class="services-process__heading fade-in">How it works</h2>
+    <div class="services-process__steps fade-in">
+      <div class="process-step">
+        <div class="process-step__number">1</div>
+        <h3>You explain it once</h3>
+        <p>Walk me through your process — what you do manually, where the bottleneck is, what tools you already use.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__number">2</div>
+        <h3>I map &amp; prototype</h3>
+        <p>I break your process into logic, design the automation architecture, and build a working prototype fast.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__number">3</div>
+        <h3>Build &amp; test</h3>
+        <p>Full implementation with error handling, fallback logic, and edge case coverage. I test it until it's solid.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-step__number">4</div>
+        <h3>Ship &amp; document</h3>
+        <p>You get a working system plus full documentation — architecture, onboarding guide, and a handoff you can follow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta">
+  <div class="container">
+    <h2 class="cta__heading fade-in">
+      Need better support systems for your business?
+    </h2>
+    <p style="margin-bottom: 2rem;">I help founders and lean teams build practical systems for executive support, workflow automation, and AI-assisted operations.</p>
+    <a href="./contact.html" class="cta__btn">
+      Book a workflow review <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">Kenneth Bolivar</div>
+        <div class="footer__brand-tagline">Executive Support &amp; AI Automation</div>
+      </div>
+      <div>
+        <div class="footer__heading">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Get In Touch</div>
+        <ul class="footer__links">
+          <li><a href="mailto:kennethbolivar.ph@gmail.com">kennethbolivar.ph@gmail.com</a></li>
+          <li><a href="./contact.html">Send a message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 Kenneth Bolivar. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

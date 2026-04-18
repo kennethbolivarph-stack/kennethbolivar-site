@@ -56,52 +56,67 @@
 
 <main class="blog-page">
 
-  <section class="blog-hero">
+  <header class="page-header">
     <div class="container">
-      <p class="section-kicker">Blog</p>
-      <h1>Insights on AI automation, executive support, and systems that actually work.</h1>
-      <p class="blog-hero-text">
-        Practical articles on automation, AI workflows, and no-code systems —
-        written for founders and lean teams that want execution, not fluff.
+      <h1 class="page-header__heading fade-in">The Neural Log & Field Notes</h1>
+      <p class="page-header__subtext fade-in">
+        Transparent breakdowns of AI automation architecture, RAG systems, and the structured logic behind ExecMind AI operations. Execution over theory.
       </p>
     </div>
-  </section>
+  </header>
 
-  <section class="blog-featured">
+  <section class="blog-featured fade-in">
     <div class="container">
-      <a href="./blog/how-to-adapt-to-the-ai-era.html" class="featured-post-card">
-        <div class="featured-post-copy">
-          <span class="post-tag">Featured</span>
-          <p class="post-category">Strategy & Mindset</p>
-          <h2>How to Adapt to the AI Era: A Practical Guide for Humans</h2>
-          <p class="post-excerpt">
-            Forget the robot apocalypse. Here's how to stay relevant, resilient, and remarkably human in a world run by algorithms.
-          </p>
-          <div class="post-meta">
-            <span>April 15, 2026</span>
-            <span>8 min read</span>
+      <a href="./blog/how-to-adapt-to-the-ai-era.html" class="featured-card">
+        <div class="featured-card__content">
+          <div class="card-meta">
+            <span class="badge badge--primary">Featured</span>
+            <span class="category">Strategy & Architecture</span>
           </div>
-          <span class="post-link">Read article →</span>
+          <h2 class="featured-card__title">How to Adapt to the AI Era: A Practical Guide for Humans</h2>
+          <p class="featured-card__excerpt">
+            Forget the hyperbole. Here is a grounded look at how to stay relevant, build resilient workflows, and leverage tools like Make.com and Airtable in a rapidly shifting landscape.
+          </p>
+          <div class="card-footer">
+            <span class="date">April 15, 2026</span>
+            <span class="read-time">8 min read</span>
+          </div>
         </div>
       </a>
     </div>
   </section>
 
-  <section class="blog-grid-section">
+  <section class="blog-grid-section fade-in">
     <div class="container">
       <div class="blog-grid">
 
         <article class="blog-card">
-          <a href="./blog/hop-on-the-ai-train.html" class="blog-card-link">
-            <div class="blog-card-body">
-              <p class="post-category">AI Career</p>
-              <h3>You Don’t Have to Be a Tech Person to Hop on the AI Train</h3>
-              <p class="post-excerpt">
-                Not a coder? No problem. This guide explains how anyone — regardless of background — can transition into the AI economy in 2026.
+          <a href="./blog/hop-on-the-ai-train.html" class="blog-card__link">
+            <div class="blog-card__body">
+              <span class="category">AI Career Transition</span>
+              <h3 class="blog-card__title">You Don’t Have to Be a Tech Person to Hop on the AI Train</h3>
+              <p class="blog-card__excerpt">
+                A systems-thinking approach to transitioning into the AI economy without a traditional coding background. Focus on logic, not syntax.
               </p>
-              <div class="post-meta">
-                <span>March 27, 2026</span>
-                <span>8 min read</span>
+              <div class="card-footer">
+                <span class="date">March 27, 2026</span>
+                <span class="read-time">8 min read</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="blog-card">
+          <a href="#" class="blog-card__link">
+            <div class="blog-card__body">
+              <span class="category">System Design</span>
+              <h3 class="blog-card__title">Building the ExecMind AI Framework</h3>
+              <p class="blog-card__excerpt">
+                A look under the hood at the nine guiding principles used to evaluate product depth, velocity, and architectural leverage.
+              </p>
+              <div class="card-footer">
+                <span class="date">Coming Soon</span>
+                <span class="read-time">--</span>
               </div>
             </div>
           </a>
@@ -111,17 +126,15 @@
     </div>
   </section>
 
-  <section class="blog-cta">
+  <section class="cta fade-in">
     <div class="container">
-      <div class="blog-cta-box">
-        <p class="section-kicker">Need help building this for real?</p>
-        <h2>Want these strategies applied to your business?</h2>
-        <p>
-          I build AI-powered workflows, executive support systems, and automation setups that reduce manual work
-          and turn messy processes into clear systems.
-        </p>
-        <a href="./contact.html" class="primary-btn">Book a workflow review →</a>
-      </div>
+      <h2 class="cta__heading">Require structured support?</h2>
+      <p style="margin-bottom: 2rem; opacity: 0.8; max-width: 600px; margin-inline: auto;">
+        Whether you are looking to integrate multi-agent workflows or need a reliable executive partner to manage daily operations, let's look at your current architecture.
+      </p>
+      <a href="./contact.html" class="cta__btn">
+        Book a workflow review <span aria-hidden="true">→</span>
+      </a>
     </div>
   </section>
 

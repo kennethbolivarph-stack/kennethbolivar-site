@@ -52,7 +52,8 @@
   --content-wide: 1200px;
 }
 
-/* ===== LIGHT MODE (Default) ===== */
+/* ===== LIGHT MODE (Absolute Default) ===== */
+/* Applied globally to the root, ensuring a clean, structured baseline */
 :root, [data-theme="light"] {
   --color-bg: #ffffff;
   --color-surface: #f8f9fa;
@@ -71,7 +72,8 @@
   --color-dark-surface: #1e293b;
 }
 
-/* ===== DARK MODE ===== */
+/* ===== DARK MODE (Explicit Toggle Only) ===== */
+/* Only triggers when javascript explicitly adds data-theme="dark" to the HTML tag */
 [data-theme="dark"] {
   --color-bg: #0f172a;
   --color-surface: #1e293b;

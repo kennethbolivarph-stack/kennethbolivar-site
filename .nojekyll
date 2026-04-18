@@ -1,1 +1,3 @@
-
+# _config.yml for Jekyll
+url: "https://yourdomain.com"
+include: [".htaccess"]
